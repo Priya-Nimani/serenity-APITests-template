@@ -1,0 +1,12 @@
+.idea/
+*.iml
+*.ipr
+.project
+.classpath
+.settings/
+*.log
+target/
+bin/
+db/
+classes/
+/README.md
