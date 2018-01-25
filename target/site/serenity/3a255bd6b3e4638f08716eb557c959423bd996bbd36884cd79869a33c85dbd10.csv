@@ -1,0 +1,5 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Testing a REST API","Look up with a valid postcode","SUCCESS","22:02:59","0.0","3.13"
+"Testing a REST API","Look up with a invalid postcode","SUCCESS","22:03:08","0.0","0.18"
+"Testing a REST API","Validate a postcode","SUCCESS","22:03:09","0.0","0.48"
+"Testing a REST API","Get nearest postcodes for a given longitude & latitude","SUCCESS","22:03:10","0.0","0.33"
