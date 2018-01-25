@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="uk.co.test.cucumber.runners.CustomTestRunner" time="7.703" tests="18" errors="0" skipped="0" failures="0">
+<testsuite name="uk.co.test.cucumber.runners.CustomTestRunner" time="6.909" tests="18" errors="0" skipped="0" failures="0">
   <properties>
     <property name="idea.version" value="2017.2.5"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
@@ -64,20 +64,20 @@
   </properties>
   <testcase name="When a user does a look up for postcode &quot;S6 5BX&quot;" classname="Scenario: Look up with a valid postcode" time="0.001"/>
   <testcase name="Then the server should return a success status along with admin district as &quot;Sheffield&quot;" classname="Scenario: Look up with a valid postcode" time="0"/>
-  <testcase name="Scenario: Look up with a valid postcode" classname="Scenario: Look up with a valid postcode" time="6.617"/>
+  <testcase name="Scenario: Look up with a valid postcode" classname="Scenario: Look up with a valid postcode" time="6.377"/>
   <testcase name="When a user does a look up for postcode &quot;S12345&quot;" classname="Scenario: Look up with a invalid postcode" time="0"/>
   <testcase name="Then the server should return a error status along with the error message &quot;Invalid postcode&quot;" classname="Scenario: Look up with a invalid postcode" time="0"/>
-  <testcase name="Scenario: Look up with a invalid postcode" classname="Scenario: Look up with a invalid postcode" time="0.612"/>
+  <testcase name="Scenario: Look up with a invalid postcode" classname="Scenario: Look up with a invalid postcode" time="0.172"/>
   <testcase name="When a user attempts to validate a postcode &quot;S6 5LH&quot;" classname="| S6 5LH | true |" time="0"/>
   <testcase name="Then the server should return the validation status as &quot;true&quot;" classname="| S6 5LH | true |" time="0"/>
-  <testcase name="| S6 5LH | true |" classname="| S6 5LH | true |" time="0.002"/>
+  <testcase name="| S6 5LH | true |" classname="| S6 5LH | true |" time="0"/>
   <testcase name="When a user attempts to validate a postcode &quot;LS27 0WH&quot;" classname="| LS27 0WH | true |" time="0"/>
   <testcase name="Then the server should return the validation status as &quot;true&quot;" classname="| LS27 0WH | true |" time="0"/>
   <testcase name="| LS27 0WH | true |" classname="| LS27 0WH | true |" time="0"/>
   <testcase name="When a user attempts to validate a postcode &quot;S12 212&quot;" classname="| S12 212 | false |" time="0"/>
   <testcase name="Then the server should return the validation status as &quot;false&quot;" classname="| S12 212 | false |" time="0"/>
-  <testcase name="| S12 212 | false |" classname="| S12 212 | false |" time="0.244"/>
+  <testcase name="| S12 212 | false |" classname="| S12 212 | false |" time="0.156"/>
   <testcase name="When user does a search with longitude &quot;0.629805756141451&quot; and lattitude &quot;51.7923253460324&quot;" classname="Scenario: Get nearest postcodes for a given longitude &amp; latitude" time="0"/>
   <testcase name="Then list of valid postcodes is returned" classname="Scenario: Get nearest postcodes for a given longitude &amp; latitude" time="0"/>
-  <testcase name="Scenario: Get nearest postcodes for a given longitude &amp; latitude" classname="Scenario: Get nearest postcodes for a given longitude &amp; latitude" time="0.227"/>
+  <testcase name="Scenario: Get nearest postcodes for a given longitude &amp; latitude" classname="Scenario: Get nearest postcodes for a given longitude &amp; latitude" time="0.203"/>
 </testsuite>
